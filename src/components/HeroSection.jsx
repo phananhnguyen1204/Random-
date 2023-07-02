@@ -1,6 +1,6 @@
 function HeroSection() {
   return (
-    <div className="flex flex-col items-center justify-center py-20">
+    <div id="hero" className="flex flex-col items-center justify-center py-20">
       <div className="text-center">
         <h1 className="mb-1 font-inter text-2xl font-semibold text-indigo-600 dark:text-indigo-500 md:mb-3 md:text-4xl">
           Hi, This is Phan
