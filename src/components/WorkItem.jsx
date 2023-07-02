@@ -1,6 +1,11 @@
-function WorkItem({ tech, title, imgUrl }) {
+function WorkItem({ tech, title, imgUrl, workUrl }) {
   return (
-    <div className="overflow-hidden rounded-lg bg-slate-300 dark:bg-slate-800">
+    <a
+      href={workUrl}
+      target="_blank"
+      rel="noreferrer"
+      className="overflow-hidden rounded-lg bg-slate-300 dark:bg-slate-800"
+    >
       <img
         src={imgUrl}
         alt={title}
@@ -21,7 +26,7 @@ function WorkItem({ tech, title, imgUrl }) {
           ))}
         </p>
       </div>
-    </div>
+    </a>
   );
 }
 

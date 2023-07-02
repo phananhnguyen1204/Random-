@@ -9,7 +9,7 @@ function HeroSection() {
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Non corrupti
         </p>
         <a
-          href="#"
+          href="#works"
           className="md:text-md inline-block rounded-md border border-transparent bg-indigo-600 px-8 py-3 text-base font-medium text-white hover:bg-indigo-700"
         >
           See Works

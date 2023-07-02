@@ -13,7 +13,7 @@ function About() {
         </p>
         <a
           href="mailto:phananh12042003@gmail.com"
-          className="text-md font-regular dark: mt-3 block text-gray-700 underline hover:text-indigo-500 dark:text-gray-300 dark:hover:text-indigo-500 md:text-lg"
+          className="text-md  dark: mt-3 block text-gray-700 underline hover:text-indigo-500 dark:text-gray-300 dark:hover:text-indigo-500 md:text-lg"
         >
           phananh12042003@gmail
         </a>
