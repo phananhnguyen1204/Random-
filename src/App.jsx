@@ -1,5 +1,6 @@
 import { useEffect } from "react";
 import { useState } from "react";
+import About from "./components/About";
 import HeroSection from "./components/HeroSection";
 import Services from "./components/Services";
 import Works from "./components/Works";
@@ -40,6 +41,7 @@ function App() {
           <HeroSection></HeroSection>
           <Services></Services>
           <Works></Works>
+          <About></About>
         </div>
       </div>
     </>
